@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+  }
+  h1{
+    font-size: 38px;
+  }
+  
+  // input[type=text] {
+  //   width: 30%;
+  //   padding: 12px 20px;
+  //   margin: 8px 0;
+  //   box-sizing: border-box;
+  //   border: none;
+  //   border-radius: 15px;
+  //   background-color: rgb(236, 230, 230);
+  //   color: rgb(10, 10, 10);
+  //   font-family: Arial, Helvetica, sans-serif;
+  // }
+  .Todo-header{
+    padding-top:20px;
+    text-align: center;
+  }
+
+  .task-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 22px;
+    /* cursor: pointer; */
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .task{
+    font-size: large;
+    display: inline-block;
+  }
+  .todo-container{
+    background-color: whitesmoke;
+    width: 80vw;
+    margin: auto;
+    border-style: hidden;
+    border-radius: 10px;
+    padding:18px;
+    text-align: center;
+    box-shadow: 0 8px 6px -6px black;
+
+  }
+  @media screen and (max-width:900px){
+  
+      .main-todo-contianer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        
+      }
+    
+}
+  
+  

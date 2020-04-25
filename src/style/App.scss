@@ -1,0 +1,51 @@
+// Variables
+@import "common/variables";
+// Typeface
+@import "common/typeface.scss";
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+/* Form section  */
+
+.formcontainer {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+}
+.logocontainer {
+  margin: 2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo-heading {
+  padding: 1.5rem;
+  display: inline-block;
+  color: $primary;
+}
+.logo img {
+  display: inline-block;
+  // height: 70px;
+  height: 5vh;
+}
+
+.formsection {
+  margin: auto;
+}
+#signup-form-details {
+  color: $primary;
+}
+/* Image Section */
+.imagesection {
+  width: 70%;
+  display: inline-block;
+  height: 100%;
+  background-image: url("../images/image1.png");
+  background-size: cover;
+}

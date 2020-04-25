@@ -1,0 +1,98 @@
+// Variables
+@import "../../style/common/variables.scss";
+// Typeface
+@import "../../style/common/typeface";
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.submit-div {
+  span {
+    color: grey;
+    margin-right: 3rem;
+  }
+  button {
+    width: 40% !important;
+  }
+}
+
+.label {
+  color: $secondary;
+  text-align: left;
+}
+
+input {
+  padding: 1.1rem !important;
+  border: 1px solid #333 !important;
+}
+
+button {
+  padding: 1.2rem !important;
+}
+
+
+.signup-div {
+  button {
+    width: 40% !important;
+    background: white !important;
+    color: #67bc46 !important;
+    border: 1px solid lightgrey !important;
+    border-radius: 0.28571429rem !important;
+  }
+  input {
+    border: 1px solid rgb(182, 182, 182) !important;
+  }
+  input:focus {
+    border: 1px solid #67bc46 !important;
+  }
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.m5 {
+  margin-top: 7rem;
+}
+.checkbox-div {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  label {
+    text-align: left;
+    color: gray !important;
+    line-height: 1;
+    font-size: 0.8rem !important;
+    padding-left: 30px !important;
+  }
+}
+
+.padit {
+  padding: 2rem !important;
+}
+
+
+.MuiOutlinedInput-root {
+  border: none !important;
+  outline: none !important;
+  input {
+    border: none !important;
+    outline: none !important;
+  }
+}
+
+
+.formcontainer-second {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+}
+
+.container-second {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
